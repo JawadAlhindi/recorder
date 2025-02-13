@@ -1,27 +1,24 @@
 # 🎥 Recorder
 
-Welcome to Recorder, the coolest open-source web application that lets you capture your screen and camera right in your browser! No downloads or installations needed – just head over to [recorder.getcontrast.io](https://recorder.getcontrast.io), and start your recording! 🚀
+Welcome to Recorder, a fork of the original Recorder project that adds MP4 conversion support! This web application lets you capture your screen and camera right in your browser, with the added ability to convert recordings to MP4 format. No downloads or installations needed – just head over to [record.addy.ie](https://record.addy.ie), and start your recording! 🚀
 
-<a align="center" href="https://recorder.getcontrast.io">
+<a align="center" href="https://record.addy.ie">
   <img alt="" src="screenshots/main-window.png" width="49%"/>
   <img alt="" src="screenshots/recording.png" width="49%"/>
 </a>
-
-&nbsp;
-
-**Want to learn more about us?** We are passionate about creating innovative video tools. Visit our website: [getcontrast.io](https://getcontrast.io)
 
 ## Features
 
 - ✨ **Simple and Intuitive:** Recorder offers a user-friendly interface, making recording a breeze for everyone.
 - 🎥 **Screen and Camera Recording:** Capture your browser tab or window while simultaneously adding a personal touch with your webcam.
 - 🖼️ **Picture-in-Picture View:** Experience the magic of picture-in-picture, see yourself while you're recording your screen.
-- 🔒 **Local and Secure:** Privacy should always be a top priority! All recordings take place directly in your browser so whatever you record, only you’ll have access to it.
+- 🔒 **Local and Secure:** Privacy should always be a top priority! All recordings take place directly in your browser so whatever you record, only you'll have access to it.
 - 🎬 **Real-time Preview:** Preview your camera and screen recording in real-time before diving into the action.
+- 🔄 **MP4 Conversion:** Convert your recordings from WEBM to MP4 format using FFMPEG.wasm, right in your browser!
 
 ## How to Use
 
-1. **Access the Web Application:** Fire up your Google Chrome browser and head to [recorder.getcontrast.io](https://recorder.getcontrast.io).
+1. **Access the Web Application:** Fire up your Google Chrome browser and head to [record.addy.ie](https://record.addy.ie).
 
 2. **Choose Your Mode:** Select your desired recording mode:
 
@@ -33,7 +30,9 @@ Welcome to Recorder, the coolest open-source web application that lets you captu
 
 4. **Picture-in-Picture View:** Your camera will appear in a nifty picture-in-picture view while recording the screen.
 
-5. **Save and Share:** Ready to wrap it up? Click the "Stop" button and save your masterpiece as a video file to share with the world! 🌎
+5. **Save and Convert:** When you're done, click the "Stop" button and choose to either:
+   - Download directly as WEBM
+   - Convert to MP4 using FFMPEG.wasm before downloading
 
 ## Browser Compatibility
 
@@ -41,7 +40,7 @@ Recorder only works with **Google Chrome**! It leverages certain browser capabil
 
 ## Support
 
-If you encounter any issues, have questions, or need assistance, please feel free to [open an issue](https://github.com/contrastio/recorder/issues) on GitHub. We welcome your feedback and are happy to assist with any questions or concerns you may have.
+If you encounter any issues, have questions, or need assistance, please feel free to [open an issue](https://github.com/addyosmani/recorder/issues) on GitHub. We welcome your feedback and are happy to assist with any questions or concerns you may have.
 
 ## Development & Contributions
 
@@ -50,7 +49,7 @@ Excited to dive into the code and make this app even cooler? To get started, fol
 1. **Clone the Repository:** Fork the Recorder repository and clone it to your local machine using Git.
 
    ```bash
-   git clone https://github.com/contrastio/recorder.git
+   git clone https://github.com/addyosmani/recorder.git
    ```
 
 2. **Navigate to the Directory:** Move into the Recorder project directory.
@@ -74,6 +73,10 @@ Excited to dive into the code and make this app even cooler? To get started, fol
 5. **Make Your Changes:** Work your magic! Make the desired improvements, add features, or fix issues.
 
 6. **Create a Pull Request:** Once you're happy with your changes, create a pull request on the main Recorder repository. We'll review your contribution and merge it if everything looks good!
+
+## Credits
+
+This project is a fork of the original [Recorder](https://github.com/contrastio/recorder) by [Contrast](https://getcontrast.io). The original project provided the foundation for screen and camera recording functionality. This fork adds MP4 conversion support using [FFMPEG.wasm](https://github.com/ffmpegwasm/ffmpeg.wasm).
 
 ## License
 
