@@ -12,6 +12,7 @@ Welcome to Recorder, a fork of the original Recorder project that adds MP4 conve
 - ✨ **Simple and Intuitive:** Recorder offers a user-friendly interface, making recording a breeze for everyone.
 - 🎥 **Screen and Camera Recording:** Capture your browser tab or window while simultaneously adding a personal touch with your webcam.
 - 🖼️ **Picture-in-Picture View:** Experience the magic of picture-in-picture, see yourself while you're recording your screen.
+- 🔄 **Customizable Camera Shape:** Choose between a circular or square camera view that persists in both preview and final recording.
 - 🔒 **Local and Secure:** Privacy should always be a top priority! All recordings take place directly in your browser so whatever you record, only you'll have access to it.
 - 🎬 **Real-time Preview:** Preview your camera and screen recording in real-time before diving into the action.
 - 🔄 **MP4 Conversion:** Convert your recordings from WEBM to MP4 format using FFMPEG.wasm, right in your browser!
@@ -26,11 +27,13 @@ Welcome to Recorder, a fork of the original Recorder project that adds MP4 conve
    - 🎥 **Screen and camera:** Record your browser tab or window along with your awesome camera.
    - 📷 **Camera only:** Focus solely on your camera for a personal touch.
 
-3. **Start Recording:** Click the big red "Record" button to kickstart your screen and camera recording adventure.
+3. **Customize Camera Shape:** Select your preferred camera shape (square or circle) using the shape toggle in the footer.
 
-4. **Picture-in-Picture View:** Your camera will appear in a nifty picture-in-picture view while recording the screen.
+4. **Start Recording:** Click the big red "Record" button to kickstart your screen and camera recording adventure.
 
-5. **Save and Convert:** When you're done, click the "Stop" button and choose to either:
+5. **Picture-in-Picture View:** Your camera will appear in a nifty picture-in-picture view while recording the screen.
+
+6. **Save and Convert:** When you're done, click the "Stop" button and choose to either:
    - Download directly as WEBM
    - Convert to MP4 using FFMPEG.wasm before downloading
 
