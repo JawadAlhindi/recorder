@@ -13,6 +13,7 @@ Welcome to Recorder, a fork of the original Recorder project that adds MP4 conve
 - 🎥 **Screen and Camera Recording:** Capture your browser tab or window while simultaneously adding a personal touch with your webcam.
 - 🖼️ **Picture-in-Picture View:** Experience the magic of picture-in-picture, see yourself while you're recording your screen.
 - 🔄 **Customizable Camera Shape:** Choose between a circular or square camera view that persists in both preview and final recording.
+- 📝 **Built-in Teleprompter:** Use the integrated teleprompter to read your script while recording, with adjustable speed and playback controls.
 - 🔒 **Local and Secure:** Privacy should always be a top priority! All recordings take place directly in your browser so whatever you record, only you'll have access to it.
 - 🎬 **Real-time Preview:** Preview your camera and screen recording in real-time before diving into the action.
 - 🔄 **MP4 Conversion:** Convert your recordings from WEBM to MP4 format using FFMPEG.wasm, right in your browser!
@@ -29,11 +30,18 @@ Welcome to Recorder, a fork of the original Recorder project that adds MP4 conve
 
 3. **Customize Camera Shape:** Select your preferred camera shape (square or circle) using the shape toggle in the footer.
 
-4. **Start Recording:** Click the big red "Record" button to kickstart your screen and camera recording adventure.
+4. **Use the Teleprompter (Optional):** 
+   - Click the teleprompter icon in the footer to open the teleprompter
+   - Type or paste your script into the text area
+   - Use the playback controls to start/pause scrolling
+   - Adjust the scroll speed using the + and - buttons
+   - Close the teleprompter when you're done
 
-5. **Picture-in-Picture View:** Your camera will appear in a nifty picture-in-picture view while recording the screen.
+5. **Start Recording:** Click the big red "Record" button to kickstart your screen and camera recording adventure.
 
-6. **Save and Convert:** When you're done, click the "Stop" button and choose to either:
+6. **Picture-in-Picture View:** Your camera will appear in a nifty picture-in-picture view while recording the screen.
+
+7. **Save and Convert:** When you're done, click the "Stop" button and choose to either:
    - Download directly as WEBM
    - Convert to MP4 using FFMPEG.wasm before downloading
 
