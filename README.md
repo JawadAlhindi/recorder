@@ -1,6 +1,6 @@
 # 🎥 Recorder
 
-Welcome to Recorder, a fork of the original Recorder project that adds MP4 conversion support! This web application lets you capture your screen and camera right in your browser, with the added ability to convert recordings to MP4 format. No downloads or installations needed – just head over to [record.addy.ie](https://record.addy.ie), and start your recording! 🚀
+Record [record.addy.ie](https://record.addy.ie) is an open-source web app lets you record your screen and camera directly in your browser – privacy-friendly with no downloads or installations required! Record from a tab, window or your full screen.
 
 <a align="center" href="https://record.addy.ie">
   <img alt="" src="screenshots/main-window.png" width="49%"/>
@@ -20,7 +20,7 @@ Welcome to Recorder, a fork of the original Recorder project that adds MP4 conve
 
 ## How to Use
 
-1. **Access the Web Application:** Fire up your Google Chrome browser and head to [record.addy.ie](https://record.addy.ie).
+1. **Access the Web Application:** Fire up your browser and head to [record.addy.ie](https://record.addy.ie).
 
 2. **Choose Your Mode:** Select your desired recording mode:
 
