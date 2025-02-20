@@ -3,8 +3,8 @@
 Record [record.addy.ie](https://record.addy.ie) is an open-source web app lets you record your screen and camera directly in your browser – privacy-friendly with no downloads or installations required! Record from a tab, window or your full screen.
 
 <a align="center" href="https://record.addy.ie">
-  <img alt="" src="screenshots/main-window.png" width="49%"/>
-  <img alt="" src="screenshots/recording.png" width="49%"/>
+  <img alt="" src="public/screenshot-02.jpg" width="49%"/>
+  <img alt="" src="public/screenshot-03.jpg" width="49%"/>
 </a>
 
 ## Features
