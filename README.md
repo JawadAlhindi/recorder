@@ -1,4 +1,4 @@
-# 🎥 Recorder
+# 🎥 Record
 
 Record [record.addy.ie](https://record.addy.ie) is an open-source web app lets you record your screen and camera directly in your browser – privacy-friendly with no downloads or installations required! Record from a tab, window or your full screen.
 
@@ -9,7 +9,7 @@ Record [record.addy.ie](https://record.addy.ie) is an open-source web app lets y
 
 ## Features
 
-- ✨ **Simple and Intuitive:** Recorder offers a user-friendly interface, making recording a breeze for everyone.
+- ✨ **Simple and Intuitive:** Record offers a user-friendly interface, making recording a breeze for everyone.
 - 🎥 **Screen and Camera Recording:** Capture your browser tab or window while simultaneously adding a personal touch with your webcam.
 - 🖼️ **Picture-in-Picture View:** Experience the magic of picture-in-picture, see yourself while you're recording your screen.
 - 🔄 **Customizable Camera Shape:** Choose between a circular or square camera view that persists in both preview and final recording.
@@ -47,7 +47,7 @@ Record [record.addy.ie](https://record.addy.ie) is an open-source web app lets y
 
 ## Browser Compatibility
 
-Recorder only works with **Google Chrome**! It leverages certain browser capabilities that may not be available in other browsers at the moment.
+Record currently only works with Chrome and Chromium browsers. It leverages certain browser capabilities that may not be available in other browsers at the moment.
 
 ## Support
 
@@ -57,13 +57,13 @@ If you encounter any issues, have questions, or need assistance, please feel fre
 
 Excited to dive into the code and make this app even cooler? To get started, follow these steps:
 
-1. **Clone the Repository:** Fork the Recorder repository and clone it to your local machine using Git.
+1. **Clone the Repository:** Fork the Record repository and clone it to your local machine using Git.
 
    ```bash
    git clone https://github.com/addyosmani/recorder.git
    ```
 
-2. **Navigate to the Directory:** Move into the Recorder project directory.
+2. **Navigate to the Directory:** Move into the Record project directory.
 
    ```bash
    cd recorder
@@ -83,11 +83,11 @@ Excited to dive into the code and make this app even cooler? To get started, fol
 
 5. **Make Your Changes:** Work your magic! Make the desired improvements, add features, or fix issues.
 
-6. **Create a Pull Request:** Once you're happy with your changes, create a pull request on the main Recorder repository. We'll review your contribution and merge it if everything looks good!
+6. **Create a Pull Request:** Once you're happy with your changes, create a pull request on the main Record repository. We'll review your contribution and merge it if everything looks good!
 
 ## Credits
 
-This project is a fork of the original [Recorder](https://github.com/contrastio/recorder) by [Contrast](https://getcontrast.io). The original project provided the foundation for screen and camera recording functionality. This fork adds MP4 conversion support using [FFMPEG.wasm](https://github.com/ffmpegwasm/ffmpeg.wasm).
+This project is a fork of the original [Recorder](https://github.com/contrastio/recorder) by [Contrast](https://getcontrast.io). This fork adds a number of features across camera layout, teleprompting, MP4 conversion and others.
 
 ## License
 
