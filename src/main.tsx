@@ -15,6 +15,7 @@ import { CameraShapeProvider } from 'contexts/cameraShape';
 import { PictureInPictureProvider } from 'contexts/pictureInPicture';
 import { RecordingProvider } from 'contexts/recording';
 import { ScreenshareProvider } from 'contexts/screenshare';
+import { ScreenshareSettingsProvider } from 'contexts/screenshareSettings';
 import { StreamsProvider } from 'contexts/streams';
 
 import App from './App';
@@ -39,6 +40,7 @@ createRoot(document.getElementById('root') as HTMLElement).render(
               CameraShapeProvider,
               PictureInPictureProvider,
               MediaDevicesProvider,
+              ScreenshareSettingsProvider,
               ScreenshareProvider,
               CountdownProvider,
             ]}

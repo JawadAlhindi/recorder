@@ -1,8 +1,11 @@
 import { createContext, useContext, useRef } from 'react';
 
+import { getDisplayStream } from 'services/mediaDevices';
+
 import { useLayout } from './layout';
 import { usePictureInPicture } from './pictureInPicture';
 import { useRecording } from './recording';
+import { useScreenshareSettings } from './screenshareSettings';
 import { useStreams } from './streams';
 
 type ScreenshareContextType = {
@@ -32,6 +35,8 @@ export const ScreenshareProvider = ({ children }: ScreenshareProviderProps) => {
   const pipWindowRef = useRef(pipWindow);
   pipWindowRef.current = pipWindow;
 
+  const { resolution, includeSystemAudio } = useScreenshareSettings();
+
   const startScreenshare = async () => {
     if (!pipWindowRef.current) {
       pipWindowRef.current = await requestPipWindow();
@@ -40,10 +45,12 @@ export const ScreenshareProvider = ({ children }: ScreenshareProviderProps) => {
       return;
     }
     try {
-      const stream = await navigator.mediaDevices.getDisplayMedia({
-        video: true,
-        audio: false,
-      });
+      const stream = await getDisplayStream(
+        resolution.width && resolution.height
+          ? { width: resolution.width, height: resolution.height }
+          : null,
+        includeSystemAudio,
+      );
       stream.getVideoTracks()[0].onended = () => {
         setScreenshareStream(null);
         if (isRecordingRef.current && layoutRef.current !== 'cameraOnly') {

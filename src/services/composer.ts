@@ -17,6 +17,7 @@ export const composeStreams = (
   const cameraTrack = cameraStream?.getVideoTracks()[0];
   const microphoneTrack = microphoneStream?.getAudioTracks()[0];
   const screenshareTrack = screenshareStream?.getVideoTracks()[0];
+  const screenshareAudioTrack = screenshareStream?.getAudioTracks()[0];
 
   const screenshareProcessor =
     screenshareTrack &&
@@ -127,6 +128,9 @@ export const composeStreams = (
   }
 
   const recordingStream = new MediaStream([recordingGenerator]);
+  if (screenshareAudioTrack) {
+    recordingStream.addTrack(screenshareAudioTrack);
+  }
   if (microphoneTrack) {
     recordingStream.addTrack(microphoneTrack);
   }

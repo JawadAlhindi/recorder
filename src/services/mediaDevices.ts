@@ -66,3 +66,25 @@ export const getMicrophoneStream = (deviceId: string): Promise<MediaStream> => {
     video: false,
   });
 };
+
+export type DisplayResolution = {
+  width: number;
+  height: number;
+};
+
+export const getDisplayStream = (
+  resolution: DisplayResolution | null,
+  includeSystemAudio: boolean,
+): Promise<MediaStream> => {
+  const video: boolean | MediaTrackConstraints = resolution
+    ? {
+        width: { ideal: resolution.width },
+        height: { ideal: resolution.height },
+      }
+    : true;
+
+  return navigator.mediaDevices.getDisplayMedia({
+    video,
+    audio: includeSystemAudio,
+  });
+};
