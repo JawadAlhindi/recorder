@@ -16,6 +16,7 @@ import { PictureInPictureProvider } from 'contexts/pictureInPicture';
 import { RecordingProvider } from 'contexts/recording';
 import { ScreenshareProvider } from 'contexts/screenshare';
 import { StreamsProvider } from 'contexts/streams';
+import { YouTubeProvider } from 'contexts/youtube';
 
 import App from './App';
 import theme from './theme';
@@ -33,6 +34,7 @@ createRoot(document.getElementById('root') as HTMLElement).render(
         {isBrowserSupported ? (
           <Compose
             components={[
+              YouTubeProvider,
               LayoutProvider,
               StreamsProvider,
               RecordingProvider,
